@@ -1,0 +1,367 @@
+body{
+    font-family: Times;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+}
+html {
+    height: -webkit-fill-available;
+}
+
+/* wrapper */
+.wrapper{
+    background-color: hsla(235, 12%, 43%, 1);
+}
+
+/* slideshow */
+.h-slideshow{
+    background-color: rgba(128, 128, 128, 0.705);
+}
+
+
+/* Header-Section */
+.header-section{
+    background-color: rgb(56, 58, 75);
+}
+.head{
+    background-color: #30353f;
+    /*background-image: url('images/back2.png');*/
+}
+/*#head{
+    background-image: url('images/back2.png');
+}*/
+.h-jumbotron{
+    color: #d1dbe8;
+}
+.h-jumbotron-border{
+    border: 2.5px solid #d1dbe8;
+}
+.navv{
+    background-color: #071126;
+    border-top: 1.5px solid #d1dbe8;
+}
+.h-navbar{
+    box-shadow: 2px 2px 4px  #000000;
+}
+
+/* .h-nav-container{
+    border-left: 0.5px solid #d1dbe8;
+    border-right: 0.5px solid #d1dbe8;
+} */
+.h-nav-text{
+    color: #d1dbe8;
+}
+.h-dropdown{
+    background-color: #071126;
+    box-shadow: 2px 2px 4px  #000000;
+}
+.h-divider{
+    background-color: #d1dbe8;
+}
+
+/* Progress Bar */
+.h-progressbar{
+    height: 8px;
+}
+.h-progressbar1{
+    background-color: rgb(35, 159, 168);
+}
+.h-progressbar2{
+    background-color: rgb(14, 60, 212);
+}
+.h-progressbar3{
+    background-color: rgb(9, 143, 65);
+}
+.h-progressbar4{
+    background-color: rgb(16, 22, 102);
+}
+.h-progressbar5{
+    background-color: rgb(169, 197, 10);
+}
+.h-progressbar-sm1{
+    background-color: #133070;
+}
+.h-progressbar-sm2{
+    background-color: #701370;
+}
+.h-progressbar-sm3{
+    background-color: #701318;
+}
+.h-progressbar-sm4{
+    background-color: #fff;
+}
+/* main-section */
+.content{
+    background-color: rgb(156, 157, 165);
+}
+
+.left-section{
+    background-color: rgb(200, 201, 206);
+}
+.h-sidebar-icon{
+    width: 15%;
+    height: 15%;
+}
+
+.main-section{
+    background-color: rgb(156, 157, 165);
+}
+.h-article-heading{
+    border-bottom: 5px solid #071126;
+    box-shadow: 2px 2px 4px  #000000;
+    color: #071126; 
+}
+.h-article-heading a{
+    color: #071126;
+}
+
+.h-card-content{
+    background-color: transparent;
+}
+.h-content-btn{
+    background-color: transparent;
+}
+.h-edit-btn{
+    color: #00FF00;
+}
+.h-btn-img1{
+    border: 0.5px solid #00FF00;
+    border-radius: 40px;
+}
+.h-cat-btn{
+    color: #12736C;
+}
+.h-btn-img2{
+    border: 0.5px solid #12736C;
+    border-radius: 40px;
+}
+.h-edn-btn{
+    color: #5D4D03;
+}
+.h-btn-img3{
+    border: 0.5px solid #FAEAA4;
+    border-radius: 40px; 
+    
+}
+.h-content-footer-hr{
+    border-top: 0.5px solid gray;
+    margin-right: 100px;
+    margin-left: 5px;
+}
+
+.right-section{
+    background-color: rgb(71, 72, 85);
+}
+
+#hg-rs-group-items-collapse, #hg-rs-group-items-collapse2{
+    border-top: 1px solid #071126;
+}
+.h-rs-list-group{
+    background-color: transparent;
+}
+.h-rs-list-item{
+    background-color: transparent;
+    width: 35%;
+    height: auto;
+    box-shadow: 2px 2px 4px  #000000;
+}
+.btn-toggle::before {
+    width: 1.25em;
+    line-height: 0;
+    content: url("../images/expand-light.ico");
+    transition: transform .35s ease;
+    transform-origin: .5em 50%;
+}
+.btn-toggle {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 600;
+    background-color: transparent;
+    border: 0;
+}
+.btn-toggle[aria-expanded="true"]::before {
+    transform: rotate(90deg);
+}
+
+/* main-section */
+
+
+
+/* footer-section */
+.footer-section{
+    background-color: rgb(56, 58, 75);
+}
+
+.q-link{
+    background-color: #d1dbe8;
+}
+.h-qlink-item-list{
+    border-bottom: 1px solid #071126;
+}
+.h-qlink-heading{
+    background-color: #071126;
+    box-shadow: 2px 2px 4px  #000000;
+    color: #d1dbe8;
+}
+
+.h-qlink-link{
+    color: #071126;
+}
+.h-qlink-link:hover{
+    color: #071126;
+}
+.foot{
+    background-color: #071126;
+    color: #d1dbe8;
+}
+.h-footer-brand{
+    color: #d1dbe8;
+}
+.h-footer-brand-img{
+    border-radius: 50px;
+}
+.h-footer-text{
+    color: #d1dbe8;
+}
+
+/* back-to-top */
+.back-to-top 
+{
+    position:fixed;
+    bottom: 0;
+    right: 2em;
+    text-decoration: none;
+    padding: 0.5em;
+    display: none;
+    z-index:99;
+    
+}
+.h-back-to-top-img{
+    border: 1px solid #d1dbe8;
+    border-radius: 40px;
+    background-color: #071126;
+}
+
+/* Hover effects */
+.h-fade{
+    opacity: 0.7;
+    filter: alpha(opacity=100);
+}
+.hover-fade:hover{
+    opacity: 0.7;
+	filter: alpha(opacity=100);
+}
+.hover-light:hover{
+    opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.image-hover-transform:hover{
+	transform: scale(1.1);
+}
+.link-hover-underline:hover{
+    border-bottom: 1px solid;
+}
+
+/** Colors **/
+.h-light-color{
+    color: #d1dbe8! important;
+}
+.h-dark-color{
+    color: #071126! important;
+}
+.h-light-bg{
+    background-color: #d1dbe8! important;
+}
+.h-dark-bg{
+    background-color: #071126! important;
+}
+.h-dark-fade-bg{
+    background-color: #0711266e! important;
+}
+.h-light-fade-bg{
+    background-color: #d1dbe862! important;
+}
+
+/** Shadow effects **/
+.h-box-shadow{
+    box-shadow: 0px 2px 7px 3px #0711266e! important;
+}
+
+/** Margin **/
+.h-mr{
+    margin-right: 5px;
+}
+.h-ml{
+    margin-left: 7px;
+}
+
+/*show game Styles*/
+.sh-article-content1{
+    background-color: #41547eb6;
+    border-bottom: 1px solid #071126;
+}
+.sh-card-content{
+    width: 94%;
+    margin: auto; 
+    border: none;
+}
+.sh-card-edition-content{
+    border-radius: 0px! important;
+    border: none;
+    border-bottom: 1px solid #071126;
+}
+.sh-article-content{
+    width: 95%;
+    margin: auto;
+}
+.sh-del-btn-img{
+    border: 0.5px solid red;
+    border-radius: 40px;
+    padding: 2px;
+}
+.sh-add-btn-img{
+    border: 0.5px solid #071126;
+    border-radius: 40px;
+    padding: 2px;
+}
+.sh-btn-badge{
+    border-left: 1px solid #071126;
+    border-radius: 0px! important;
+}
+.sh-card-footer-head{
+    background-color: #d1dbe8;
+}
+.sh-card-edition-platforms{
+    background-color: #818fa0;
+    color: #d1dbe8;
+}
+.sh-content-btn{
+    background-color: rgb(71, 72, 85);
+}
+/*show game Styles*/
+
+/** create game styles **/
+.sh-article-form{
+    box-shadow: 2px 2px 4px  #000000;
+}
+/** create Game styles **/
+
+
+
+/** add game attributes styles **/
+
+/** add game attributes styles **/
+
+
+/** edit game styles **/
+.ed-edit-img1{
+    border: 0.5px solid green;
+    border-radius: 40px;
+}
+
+/** add game category styles **/
+.h-input-field{
+    border: none;
+    background-color: rgb(156, 157, 165)! important;
+}
+/** add game category styles **/
